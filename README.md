@@ -3,7 +3,9 @@ CV and Personal Portfolio template
 Template contains Skills and Projects (which u created) sections.
 Also contains about and contact informations, images.
 
-I'm going to improve this template :)
+This is the first, 1.o version.
+
+I'm going to improve this template :) 
 
 You can see template version on the : http://developers.today
 
