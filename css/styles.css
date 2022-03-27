@@ -1,0 +1,262 @@
+/*Author: wwww.developers.today 
+    Email:  contact@developers.today
+    This is my CV, Personal Portfolio template project. I'm going to improve it, you can also commit your contribution.
+    This is first, 1.0 Version. I'm going to improve this template every week. */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.main {
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-left: 20%;
+    
+   
+}
+
+.leftside {
+    width: 14.2rem;
+   
+    margin: auto;
+    float: left;
+    height: auto;
+}
+
+
+
+
+
+
+#image {
+    width: 10.5rem;
+    border: 4px green solid;
+    border-radius: 50%;
+    margin-left: 8%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#image:hover {opacity: 0.7;}
+
+/* Image hover effect */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+
+
+
+
+
+
+#me {
+    font-size: 16px;
+    font-style: italic;
+    
+}
+
+.info {
+    line-height: 1.8;
+    padding-right: 2px;
+    font-size: 18px;
+}
+
+.info #mailto::before {
+    content: "\0040";
+    padding-right: 9px;
+    font-size: 24px;
+    color: green;
+}
+
+/* remote deveoper, change profession description */
+
+#remote::before {
+    content: "\1F4BB";
+    padding-right: 9px;
+    color: green;
+}
+
+/* Github icon style */
+
+.fa-github::before {
+    font-size: 24px;
+    color: green;
+    padding-right: 9px;
+}
+
+
+p {
+    margin-top: 1px;
+}
+
+/* information changing - email, web address and job */
+
+#dev::before {
+    content: "\01F517";
+    padding-right: 9px;
+    font-size: 24px;
+    color: green;
+}
+
+
+.skills .allskills {
+    line-height: 1.8;
+    
+}
+
+.skills .allskills p::before {
+    
+    content: "\2713";
+    color: green;
+    font-size: 18px;
+    padding-right: 9px;
+}
+
+
+.skills h3 {
+    text-align: center;
+    font-family: Trirong;
+}
+
+.projects h3 {
+    text-align: center;
+    font-family: Trirong;
+}
+
+.projects .allprojects {
+    line-height: 1.8;
+    font-size: 18px;
+    
+}
+
+/* project numbering */
+
+.allprojects a::before {
+    content: "\0031";
+    padding-right: 9px;
+    font-size: 18px;
+    color: green;
+}
+
+.allprojects #two::before {
+    content: "\0032";
+    padding-right: 9px;
+    font-size: 18px;
+    color: green;
+
+}
+
+
+.allprojects #three::before {
+    content: "\0033";
+    padding-right: 9px;
+    font-size: 18px;
+    color: green;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+   
+    color: black;
+    font-size: 20px;
+}
+
+.info a:hover {
+   
+    color: black;
+    font-size: 20px;
+}
+
+/* vertical line */
+
+.vl {
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 890px;
+    position: absolute;
+    left: 40%;
+    margin-left: -3px;
+    top: 15px;
+    border: dashed;
+  }
+
+
+  @media only screen and (max-width: 1400px) {
+    .vl {
+      display: none;
+    }
+  }
+
+
+  /* Right side of CV site */
+
+.rightside {
+      float: right;
+      margin-right: 25%;
+  }
+
+
+h1 {
+      text-align: center;
+      font-family: Trirong;
+      font-size: 20px;
+    }
+/* Right side h1 mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      margin-left: 70px;
+    }
+  }
+/* this makes responsive line which is under the about me */
+
+  @media only screen and (max-width: 600px) {
+    #about-line {
+      margin-left: 97px;
+      margin-right: 40px;
+    }
+  }
+
+ 
+
+
+span {
+    color: green;
+}
+
+.text a:hover {
+    color: red;
+    font-size: 20px;
+}
+ 
+@media only screen and (max-width: 600px) {
+    .text {
+      margin-left: 97px;
+    }
+  }
